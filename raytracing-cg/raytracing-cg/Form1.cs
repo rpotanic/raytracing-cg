@@ -16,5 +16,7 @@ namespace raytracing_cg
         {
             InitializeComponent();
         }
+
+       
     }
 }
