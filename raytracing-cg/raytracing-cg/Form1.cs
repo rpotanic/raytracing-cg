@@ -18,22 +18,5 @@ namespace raytracing_cg
             GLGraphics = new GLGraphics();
             InitializeComponent();
         }
-
-        private void glControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-            RT.Update();
-            glControl1.SwapBuffers();
-            RT.closeProgram();
-        }
-
-        private void Application_Idle(object sender, PaintEventArgs e)
-        {
-
-            glControl1_Paint(sender, e);
-
-        }
-
-
     }
 }
